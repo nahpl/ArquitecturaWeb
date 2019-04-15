@@ -17,7 +17,7 @@ La finalidad de este trabajo es desarrollar una aplicacion que permita recopilar
 
 #### Definicion de endpoints
 
-|               | Funcion                                 | Metodo                        | Respuestas                          |
+|               | Funcion                                 | EndPoint                        | Respuestas                          |
 | ------------- | --------------------------------------- | ----------------------------- | ----------------------------------- |
 | Estaciones		| alta (nombre,lugar,usuario,clave)				| POST /estaciones/ (body)			| 200, 201, 400, 403, 500	            |
 |			| baja (id)							| DELETE /estaciones/id				| 200, 201, 403, 500	|
