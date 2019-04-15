@@ -18,6 +18,7 @@ La finalidad de este trabajo es desarrollar una aplicacion que permita recopilar
 #### Definicion de endpoints
 
 | Estaciones		| alta (nombre,lugar,usuario,clave)				| POST /estaciones/ (body)			| Respuestas: 200, 201, 400, 403, 500	|
+| ------------- | --------------------------------------- | ----------------------------- | ----------------------------------- |
 |			| baja (id)							| DELETE /estaciones/id				| Respuestas: 200, 201, 403, 500	|
 |			| modificacion (nombre,lugar,usuario,clave)			| PUT /estaciones/id (body)			| Respuestas: 200, 201, 400, 403, 500	|
 | Datos meteorologicos	| alta (id_estacion,fecha,hora,temp,humedad,presion,uv,lluvia)	| POST /estaciones/datos_meteorologicos (body)	| Respuestas: 201, 400, 403, 500	|
